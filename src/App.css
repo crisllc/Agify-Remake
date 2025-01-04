@@ -1,0 +1,39 @@
+.image-galery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  width: 1000px;
+  height: auto;
+}
+
+.image {
+  display: block;
+  width: auto;
+  height: 50px;
+  filter: grayscale(150%);
+  padding: 20px;
+}
+
+.TLO {
+  display: flex;
+  content: \A;
+  justify-content: center;
+  filter: grayscale(150%);
+  opacity: 50%;
+  padding-top: 100px;
+}
+
+.sx {
+  /* flex-direction: row; */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.heroOrgs {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+}
